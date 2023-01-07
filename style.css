@@ -1,0 +1,246 @@
+body{
+ background-color: #1e202b !important;   
+}
+
+/* Nav Bar */                           
+.navsec { background-color: #1e202b;
+width: 100%;
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navlogo i {
+font-size: 50px;
+color: #11b6de;
+}
+
+.navbar-toggler{
+    color: #11b6de !important;
+}
+
+.hdline {
+    color: white !important;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.navoptions {
+    display: flex;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .navoptions ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+.navoptions a {
+ 
+    margin: 0px 10px;
+    padding: 5px 30px;
+    transition: 0.5s;
+    border-radius: 70px ;
+    border: 2px solid transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.navoptions a:hover {
+    border-color: #11b6de;
+   color: #11b6de !important;
+}
+
+
+                                          /* *********************** */
+                                          
+                                          /* Main Page */
+
+#mainpage {
+    width: 100%;
+    background-image: url('images/banner.png') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 45px 0px;
+    
+
+}
+
+/* Searchbar */
+.searchbar {
+    display: flex;
+   
+    position: relative;
+    
+}
+.srchbtn{
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    background-color: #009ad8 !important;
+    right: 5px;
+    padding: 2px 30px !important;
+    border: none !important;
+    color: whitesmoke !important;
+}
+
+.srchinpt{
+    padding: 15px 15px !important;
+    background-color: #1e202b !important;
+    border: none !important;
+    color: whitesmoke;
+    outline: none !important;
+}
+
+
+
+.forecast-box1{
+    background-color: #323544;
+    padding: 0px 0px !important ;
+}
+
+.date-today{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d303d;
+    width: 100%;
+    padding: 10px;
+}
+
+.location {
+    font-size: 30px;
+    margin: 20px 10px;
+    color: white;
+}
+
+.degree {
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+
+.degree-num{
+    font-size: 100px;
+   width: 75%;
+    color: white;
+    font-weight: 600;
+}
+
+.degree-logo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    width: 25%;
+    
+    
+}
+
+.status {
+    margin: 20px 10px;
+    color: #009ad8 ;
+}
+
+.wind-status{
+    margin: 10px;
+}
+
+.wind-status span{
+    color: #8d8e94;
+    padding-right: 10px ;
+    
+}
+
+.wind-status img{
+    
+    padding-right: 5px ;
+}
+
+.forecast-box2{
+    background-color: #262936;
+    padding: 0px 0px !important ;
+}
+
+.nextday{
+    width: 100%;
+    background-color: #222530;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+} 
+.degree-nextday-max{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.degree-dayafter-max{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+
+.forecast-box3{
+    background-color: #323544;
+    padding: 0px 0px !important ;
+}
+
+.dayafter{
+    width: 100%;
+    background-color: #2d303d;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
+.creamygrey {
+
+color: #bfc1c8 ;}
+
+.skyblue {
+    color: #009ad8;
+}
+
+/* footer */
+
+#footer {
+    background-color: #262936;
+    width: 100%;
+    
+}
+
+.round-logo{
+    font-size: 20px;
+    color: #009ad8;
+    border: 2px solid transparent ;
+    background-color: #1e202b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 2px;
+    transition: 250ms;
+}
+
+.round-logo:hover{
+    color: white;
+    background-color: #009ad8;
+
+}

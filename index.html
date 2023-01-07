@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web\css\all.min.css">
+    <title>Weather App</title>
+
+</head>
+
+<body>
+    <section class="w-100 navsec py-5 " id="navbar">
+        <div class="">
+            <div class="navdiv">
+                <div role="button" class="navlogo d-flex">
+                    <div class="m-2">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div class="hdline">
+                        <h1 class=" fs-5">Weather</h1>
+                        <small>tagline goes here</small>
+                    </div>
+                </div>
+                <div class="navoptions">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <div class="container-fluid">
+                          
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Live Cameras</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Photos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mainpage" class="w-100 py-5 my-5 ">
+        <div class="container">
+            <div class="search my-5">
+
+                <div class="searchbar">
+                    <input type="text" class=" form-control-lg rounded-pill w-100 srchinpt shadow-sm"
+                        placeholder="Find Your Location..." aria-label="Recipient's username"
+                        aria-describedby="button-addon2" id="srchinpt">
+                    <button class="form-control-lg btn-info rounded-pill srchbtn" type="button"
+                        id="button-addon2">Find</button>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="container py-5">
+                <div class="row forecast rounded">
+                    <div class="col-lg-4 forecast-box1 rounded">
+                        <div>
+                            <div class="date-today rounded">
+
+                                
+                                    
+
+
+
+
+                            </div>
+                          <div class="location"></div>
+                          <div class="degree">
+                              <div class="degree-num ">
+                                  
+                              </div>
+                            <div class="degree-logo">
+                                
+                            </div>
+                          </div>
+                          <div>
+                              <div class="status"></div>
+                              
+                          </div>
+                          <div class="wind-status">
+                              
+                          </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 forecast-box2 rounded">
+                        <div class="nextday">
+                            
+                        </div>
+                        <div class="py-5 text-center">
+                            <div class="nextday-logo">
+                                
+                            </div>
+                            <div class="degree-nextday-max">
+                                
+                            </div>
+                            <div class="creamygrey degree-nextday-min">10.9</div>
+                            <div class="skyblue my-4 nextday-status">Patchy rain possible</div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 forecast-box3 rounded">
+                        <div class="dayafter">
+                            
+                        </div>
+                        <div class="py-5 text-center">
+                           <div class="dayafter-logo">
+                                <img src="Images/116 (1).png" alt="">
+                           </div>
+                            <div class="degree-dayafter-max">
+                                <sup>o</sup>C
+                            </div>
+                            <div class="creamygrey degree-dayafter-min"> <sup>o</sup>C</div>
+                            <div class="skyblue my-4 dayafter-status"></div>
+                        </div>
+
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+
+    </section>
+    <section class="w-100 navsec py-5 my-5 " id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="searchbar">
+                        <input type="email" class=" form-control-lg rounded-pill w-100 srchinpt shadow-sm"
+                            placeholder="Enter Your Email to Subscribe..." aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <button class="form-control-lg btn-info rounded-pill srchbtn" type="button"
+                            id="button-addon2">Subscribe</button>
+                    </div>
+    
+                </div>
+                <div class="col-md-3">
+                    <div class="w-75 logos d-flex m-auto">
+                        <div class="round-logo">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="round-logo">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="round-logo">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <div class="round-logo">
+                            <i class="fab fa-pinterest"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 py-5 creamygrey">
+                    <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <script src="function.js"></script>
+    <script src="bootstrap-5.1.3-dist\js\bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
